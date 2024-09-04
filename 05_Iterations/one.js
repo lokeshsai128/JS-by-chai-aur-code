@@ -26,11 +26,18 @@
 //     console.log(element);
 // }
 
-//break and continue statements
-for(let i = 1;i<20;i++){
-    if(i == 5){
-        console.log(`5 is detected`);
-        break;
+// //break and continue statements
+// for(let i = 1;i<20;i++){
+//     if(i == 5){
+//         console.log(`5 is detected`);
+//         break;
+//     }
+//     console.log(`Value of i is ${i}`);
+// }
+
+for(let i=0;i<20;i++){
+    if(i%2==0){
+        continue
     }
-    console.log(`Value of i is ${i}`);
+    console.log(`${i} is not a even number`)
 }
