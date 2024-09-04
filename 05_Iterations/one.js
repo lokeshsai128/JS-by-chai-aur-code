@@ -20,8 +20,17 @@
 //     }
 // }
 
-let myArray = ["ironman","thor","captain america"];
-for (let index = 0; index < myArray.length; index++) {
-    const element = myArray[index];
-    console.log(element);
+// let myArray = ["ironman","thor","captain america"];
+// for (let index = 0; index < myArray.length; index++) {
+//     const element = myArray[index];
+//     console.log(element);
+// }
+
+//break and continue statements
+for(let i = 1;i<20;i++){
+    if(i == 5){
+        console.log(`5 is detected`);
+        break;
+    }
+    console.log(`Value of i is ${i}`);
 }
