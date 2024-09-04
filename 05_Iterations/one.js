@@ -7,11 +7,12 @@ for (let i = 0; i <= 10; i++) {
     }
     console.log(i);   
 }
-
 // console.log(i);
 
-for (let i = 0; i < array.length; i++) {
-    for (let j = 0; j < array.length; j++) {
-    
+for (let i = 0; i < 10 ; i++) {
+    console.log(`Outer loop value : ${i}`);
+    for (let j = 0; j < 10; j++) {
+        // console.log(`Inner loop value ${j} of outerloop ${i}`);
+        
     }
 }
