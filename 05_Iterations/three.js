@@ -25,4 +25,7 @@ map.set("IN","India")
 map.set("UK","United Kindom")
 map.set("FR","France")
 
-console.log(map);
+// console.log(map);
+for (const [key, values] of map) {
+    console.log(key ,":-",values);
+}
