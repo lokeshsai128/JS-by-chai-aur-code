@@ -4,9 +4,9 @@
 //     index +=2;
 // }
 
-let myArray = ["superman","batman","aquaman"];
-let arr = 0;
-while(arr < myArray.length){
-    console.log(`The superhero is : ${myArray[arr]}`);
-    arr++;
-}
+// let myArray = ["superman","batman","aquaman"];
+// let arr = 0;
+// while(arr < myArray.length){
+//     console.log(`The superhero is : ${myArray[arr]}`);
+//     arr++;
+// }
