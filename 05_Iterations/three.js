@@ -11,5 +11,10 @@
 
 const greetings = "Hello macha!";
 for (const element of greetings) {
-    console.log(`Each char in greetings : ${element}`);
+    if(element === " "){
+        continue;
+    }
+    else{
+        console.log(`Each char in greetings : ${element}`);
+    }
 }
