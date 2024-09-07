@@ -10,3 +10,9 @@
 //     console.log(`The superhero is : ${myArray[arr]}`);
 //     arr++;
 // }
+
+let score = 11;
+do{
+    console.log(`The score is : ${score}`);
+    score++;
+}while(score <=10);
