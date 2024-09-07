@@ -9,12 +9,20 @@
 //     console.log(num); 
 // }
 
-const greetings = "Hello macha!";
-for (const element of greetings) {
-    if(element === " "){
-        continue;
-    }
-    else{
-        console.log(`Each char in greetings : ${element}`);
-    }
-}
+// const greetings = "Hello macha!";
+// for (const element of greetings) {
+//     if(element === " "){
+//         continue;
+//     }
+//     else{
+//         console.log(`Each char in greetings : ${element}`);
+//     }
+// }
+
+// Maps
+const map = new Map();
+map.set("IN","India")
+map.set("UK","United Kindom")
+map.set("FR","France")
+
+console.log(map);
