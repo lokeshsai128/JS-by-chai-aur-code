@@ -4,3 +4,6 @@ const myObject = {
     rb : "ruby",
     py : "python"
 }
+for (const key in myObject) {
+    console.log(`${key} is shortcut for ${myObject[key]}`);
+}
