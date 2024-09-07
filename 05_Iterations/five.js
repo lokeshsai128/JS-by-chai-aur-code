@@ -14,6 +14,25 @@ coding.forEach( (item)=> {
 
 // coding.forEach(printMe);
 
-coding.forEach(  (item, index, arr)=>{
-    console.log(item, index, arr);
+// coding.forEach(  (item, index, arr)=>{
+//     console.log(item, index, arr);
+// })
+
+const mycoding = [
+    {
+        languageName : "javascript",
+        languageFile : "js"
+    },
+    {
+        languageName : "java",
+        languageFile : "java"
+    },
+    {
+        languageName : "python",
+        languageFile : "py"
+    }
+]
+
+mycoding.forEach( (item)=> {
+    console.log(item.languageName);
 })
