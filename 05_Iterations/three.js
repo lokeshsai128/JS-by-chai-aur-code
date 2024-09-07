@@ -27,5 +27,14 @@ map.set("FR","France")
 
 // console.log(map);
 for (const [key, values] of map) {
-    console.log(key ,":-",values);
+    // console.log(key ,":-",values);
+}
+//objects are not iterable in this method as the below code throws a TypeError as moObject is not iterable
+const myObject = {
+    'game1' : 'Garena : Free Fire',
+    'game2' : 'PUBG',
+    'game3' : 'BGMI'
+}
+for (const [key, value] of myObject) {
+    console.log(key, ":-", value);
 }
